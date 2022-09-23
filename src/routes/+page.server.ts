@@ -1,7 +1,7 @@
 import type { ServerLoad } from "@sveltejs/kit";
 import prisma from "../../prisma/prisma";
 
-export const prerender = true;
+export const ssr = true;
 
 export const load: ServerLoad = async () => {
     const questions = await prisma.question.findMany({
