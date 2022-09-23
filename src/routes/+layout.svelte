@@ -14,16 +14,17 @@
 
 <style>
 	main {
-		flex: 1;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: center;
+
 		padding: 1rem;
 		width: 100%;
-		height: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
+		height: calc(100vh - 120px);
+		overflow-y: auto;
+
+		margin: 0;
 		box-sizing: border-box;
 	}
 </style>

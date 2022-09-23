@@ -29,9 +29,10 @@
 		flex-wrap: wrap;
 		gap: 2rem;
 
-		width: 100vw;
+		width: 100%;
 		height: 100%;
 		padding: 1rem;
+		box-sizing: border-box;
 	}
 
 	.no-messages {

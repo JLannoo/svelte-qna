@@ -27,12 +27,8 @@
         flex-direction: column;
 
         padding: 1rem;
-        margin: 1rem 0;
-        
-        border-bottom: 1px solid #555;
-        border-top: 1px solid #555;
-
         width: 100%;
+        border-top: 1px solid #555;
 
         &-header {
             display: flex;
